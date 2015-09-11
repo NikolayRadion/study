@@ -1,9 +1,10 @@
-#include <iostream>
+#include "share.h"
 
-using namespace std;
 
 int main()
 {
-	cout << "Hello world!!!" << endl;
+	ShowMessage();
+
+	return 0;
 	
 }
